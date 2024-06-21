@@ -1,0 +1,113 @@
+name: Bug Report
+
+description: File a bug report
+
+
+labels: ["bug"]
+
+assignees:
+
+  - Tyler887
+
+body:
+
+  - type: markdown
+
+    attributes:
+
+      value: |
+
+        Thanks for taking the time to fill out this bug report!
+
+  - type: input
+
+    id: contact
+
+    attributes:
+
+      label: Contact Details
+
+      description: How can we get in touch with you if we need more info?
+
+      placeholder: ex. email@example.com
+
+    validations:
+
+      required: false
+
+  - type: textarea
+
+    id: what-happened
+
+    attributes:
+
+      label: What happened?
+
+      description: This helps us look into the problem.
+
+      placeholder: Unknown error.
+
+
+    validations:
+
+      required: true
+
+  - type: dropdown
+
+    id: version
+
+    attributes:
+      label: Broken script
+
+      description: Which script occurred with the error?
+
+      options:
+
+        - Ruby
+
+        - C, C++, or C#
+        
+        - Java
+        - JavaScript
+        - Other
+    validations:
+
+      required: true
+
+
+
+
+
+
+
+       
+
+
+  - type: textarea
+
+    id: logs
+
+    attributes:
+
+      label: Relevant log output
+
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+
+      render: shell
+      placeholder: Process completed with exit code 7
+
+  - type: checkboxes
+
+    id: terms
+
+    attributes:
+
+      label: Code of Conduct
+
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Tyler887/Hello-World/blob/master/CODE_OF_CONDUCT.md).
+
+      options:
+
+        - label: I agree to follow this project's Code of Conduct
+
+          required: true

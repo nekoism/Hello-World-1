@@ -1,9 +1,6 @@
-#include <iostream>
-using namespace std;
-​
-// echo like action
+#include <stdio.h>
+
 int main() {
-  cout << "Hello World!";
+  printf("Hello World!");
   return 0;
 }
-​

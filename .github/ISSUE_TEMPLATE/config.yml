@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Question
-    url: https://github.com/Tyler887/Hello-World/discussions/categories/q-a
-    about: Ask a question about this project
+    url: https://github.com/Tyler887/Hello-World/discussions/new?category=discussions
+    about: Ask a question about this
+  - name: New language
+    about: Please fork Hello World to request a new language
+    url: https://github.com/Tyler887/Hello-World/fork
